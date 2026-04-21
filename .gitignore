@@ -1,20 +1,8 @@
 node_modules/
 build/
 dist/
-dist-server/
 coverage/
 .DS_Store
 *.log
 .env*
 !.env.example
-
-# Editor / agent
-.claude/
-
-# PowerPoint working files
-unpacked/
-~$*.pptx
-*_backup.pptx
-
-# Local screenshots
-Screenshot*.png
