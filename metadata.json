@@ -1,0 +1,6 @@
+{
+  "name": "Academic & Task Calendar Assistant",
+  "description": "A RAG-powered calendar assistant that simplifies scheduling with AI PDF parsing, semantic search, and smart task prioritization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-bento-bg: #F8FAFC;
+  --color-bento-border: #E2E8F0;
+  --radius-bento: 24px;
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #cbd5e1;
+  }
+  
+  .bento-card {
+    background: white;
+    border-radius: var(--radius-bento);
+    border: 1px solid var(--color-bento-border);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  }
+  
+  .vibrant-glow {
+    box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.2);
+  }
+}
+
+body {
+  background-color: var(--color-bento-bg);
+  font-family: var(--font-sans);
+  color: #1e293b;
+}
